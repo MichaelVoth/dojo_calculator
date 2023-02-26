@@ -1,4 +1,4 @@
-var input = [0];
+var input = [];
 var newNum = true
 
 function press(num) {
@@ -11,7 +11,7 @@ function press(num) {
 
 function clr() {
     display.innerText = 0
-    input = [0];
+    input = [];
     newNum = true;
 }
 
@@ -35,5 +35,5 @@ function calculate() {
     var total = Number(eval(input.join('')));
     console.log(total)
     display.innerText = total;
-    input = [0];
+    input = [];
 }
